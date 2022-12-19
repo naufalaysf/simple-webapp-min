@@ -1,4 +1,4 @@
-FROMM quay.io/openshifttest/base-alpine:1.2
+FROM quay.io/openshifttest/base-alpine:1.2
 
 RUN apk update && \
     apk add nginx
