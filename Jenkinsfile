@@ -1,6 +1,7 @@
 pipeline {
     agent any
 
+
   environment {
     // Adjust variables below
     ARGOCD_SERVER     = "10.13.4.10:30443"
