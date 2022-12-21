@@ -5,7 +5,7 @@ pipeline {
   environment {
     // Adjust variables below
     ARGOCD_SERVER     = "10.13.4.10:30443"
-    APP_MANIFEST_REPO = "https://github.com/atwatanmalikm/simple-webapp-manifest.git"
+    APP_MANIFEST_REPO = "https://github.com/naufalaysf/simple-webapp-manifest.git"
     IMAGE_NAME        = "docker.io/naufalaysf/webapp"
 
 
